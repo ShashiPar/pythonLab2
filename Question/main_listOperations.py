@@ -23,10 +23,10 @@ def main():
         print("Median value:", list_functions.median(lst))
 
     # Creating additional lists using Python comprehension
-    list1 = [x for x in range(10)]           # List of numbers from 0 to 9
-    list2 = [x**2 for x in range(10)]        # List of squares of numbers from 0 to 9
-    list3 = [x for x in range(10) if x % 2 == 0]  # List of even numbers from 0 to 9
-    list4 = [1.5 * x for x in range(10)]     # List of multiples of 1.5 from 0 to 13.5
+    list1 = [x for x in range(10)]           
+    list2 = [x**2 for x in range(10)]        
+    list3 = [x for x in range(10) if x % 2 == 0]  
+    list4 = [1.5 * x for x in range(10)]     
 
     print("\nList1:", list1)
     print("Maximum value in List1:", list_functions.findMax(list1))
